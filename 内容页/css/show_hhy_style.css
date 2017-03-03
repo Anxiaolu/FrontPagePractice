@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	font-family:"黑体";
+	}
+a{
+	text-decoration:none;
+	}
+.container{
+	width:1440px;
+	height:1800px;
+	margin:0 auto;
+	background:#63c3d1;
+	}
+.top{
+	width:1440px;
+	height:274px;
+	}
+.top .link_box{
+	width:400px;
+	height:60px;
+	float:right;
+	margin-top:105px;
+	background:#51afd9;
+	padding-left:152px;
+	padding-top:22px;
+	box-sizing:border-box;
+	}
+.top .link_box a{
+	font-size:16px;
+	color:#154b70;
+	}
+.top .link_box a:hover{
+	color:#fff;
+	}
+
+
+/*下面的文章展示部分*/
+.text_box{
+	width:1440px;
+	height:1416px;
+	padding-left:195px;
+	padding-right:195px;
+	box-sizing:border-box;
+	overflow:hidden;
+	}
+.text_box .title{
+	width:1050px;
+	height:165px;
+	border-radius:5px;
+	background:#fff;
+	overflow:hidden;
+	}
+.text_box .title h1{
+	font-size:30px;
+	font-family:"微软雅黑";
+	color:#5d5d5d;
+	text-align:center;
+	margin-top:58px;
+	}
+.text_box .title .title_love{
+	width:1050px;
+	padding-top:27px;
+	padding-left:97px;
+	box-sizing:border-box;
+	}
+.text_box .title .title_love span{
+	font-size:18px;
+	color:#5d5d5d;
+	}
+.text_box .title .title_love .date{
+	float:right;
+	font-size:11px;
+	margin-top:10px;
+	margin-right:50px;
+	}
+
+
+/*文章区*/
+
+.text{
+	width:742px;
+	height:975px;
+	background:#fff;
+	margin:6px auto 0px;
+	border-radius:5px;
+	padding-top:18px;
+	padding-left:84px;
+	padding-right:77px;
+	box-sizing:border-box;
+	background:#f3f0e7;
+	}
+.text>img{
+	margin-bottom:24px;
+	}
+/*文章内容外框*/
+.text_in{
+	margin-bottom:66px;
+	}
+.text .text_in p{
+	font-size:18px;
+	color:#696968;
+	margin-bottom:34px;
+	line-height:24px;
+	letter-spacing:2px;
+	}
+
+/*文章下方的喜欢按钮*/
+.text .love1{
+	width:176px;
+	height:56px;
+	border:1px solid #efa2a2;
+	border-radius:50px;
+	}
+.love1>img{
+	transform:translate(20px,20px);
+	}
+.love1>span{
+	display:block;
+	font-size:18px;
+	color:#e68796;
+	transform:translate(56px,-4px);
+	}
+/*用于属性切换*/
+.text .love2{
+	height:176px;
+	height:56px;
+	border:1px solid #efa2a2;
+	background:#e9c0b8;
+	border-radius:50px;
+	}
+.love2>img{
+	transform:translate(20px,20px);
+	}
+.love2>span{
+	display:block;
+	font-size:18px;
+	color:#e68796;
+	transform:translate(56px,-4px);
+	}
+
+/*分享到微博微信链接*/
+.fx_box{
+	float:right;
+	transform:translateY(-40px);
+	}
+.fx_box a{
+	color:#666b6b;
+	opacity:0.7;
+	margin-right:14px;
+	}
+.fx_box a:hover{
+	color:#717575;
+	opacity:1;
+	}
+
+
+
+.bottom{
+	width:1440px;
+	height:109px;
+	background:url(../images/bottom.png) no-repeat scroll;
+	overflow:hidden;
+	text-align:center;
+	}
+.bottom p{
+	font-size:14px;
+	color:#82bec8;
+	margin-top:68px;
+	}

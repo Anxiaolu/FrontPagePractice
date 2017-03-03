@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width:1440px;
+	height:2000px;
+	margin:0 auto;
+	}
+*{
+	margin:0;
+	padding:0;
+	}
+.container{
+	width:1440px;
+	height:2000px;
+	margin:0 auto;
+	background:url(../images/body_bg.png) no-repeat scroll;
+	}
+.top{
+	width:1440px;
+	height:336px;
+	}
+/*顶部右侧链接框*/
+.top .link_box{
+	width:208px;
+	height:40px;
+	padding-left:227px;
+	padding-top:20px;
+	float:right;
+	margin-top:56px;
+	background:#51afd9;
+	}
+.top .link_box>a{
+	font-family:"黑体";
+	font-size:16px;
+	text-decoration:none;
+	}
+.top .link_box .sy{
+	color:#154b70;
+	margin-right:32px;
+	}
+.top .link_box .sy:hover{
+	color:#d3dbe2;
+	}
+.top .link_box .jx{
+	color:#fff;
+	}
+.top .link_box jx:hover{
+	color:#154b70;
+	}
+	
+/*顶部中间的标题框*/
+.top .title{
+	width:365px;
+	height:85px;
+	background:#e7f2f7;
+	margin-left:537px;
+	transform:translateY(165px);
+	overflow:hidden;
+	}
+.top .title>img{
+	display:block;
+	width:120px;
+	height:85px;
+	float:left;
+	clear:both;
+	}
+.top .title h2{
+	font-family:"黑体";
+	font-size:18px;
+	color:#154b70;
+	margin:25px auto 0px 145px;
+	word-spacing:3em;
+	}
+.top .title p{
+	font-family:"黑体";
+	font-size:16px;
+	color:#77aacd;
+	word-spacing:2em;
+	margin-left:165px;
+	}
+
+
+/*顶部横线*/
+.top .line{
+	display:block;
+	width:1297px;
+	height:3px;
+	margin:0 auto;
+	transform:translateY(155px);
+	}
+
+/*下面的内容部分*/
+.text_box{
+	width:1170px;
+	
+	padding-left:135px;
+	padding-right:135px;
+	overflow:hidden;
+	}
+/*栏目介绍部分*/
+.text_box .lmjs{
+	width:340px;
+	height:475px;
+	padding:30px 24px 20px;
+	border-radius:5px;
+	float:left;
+	clear:both;
+	background:#f9f9f9;
+	margin-top:5px;
+	margin-right:36px;
+	box-shadow:0px 0px 15px 15px #e4e4e4;
+	box-sizing:border-box;
+	overflow:hidden;
+	}
+.text_box .lmjs h3{
+	font-family:"黑体";
+	font-size:18px;
+	color:#154b70;
+	word-spacing:4em;
+	margin-bottom:6px;
+	}
+.text_box .lmjs .int{
+	width:292px;
+	height:368px;
+	background:#fff;
+	margin-top:34px;
+	padding-left:15px;
+	padding-right:30px;
+	box-sizing:border-box;
+	}
+.text_box .lmjs .int p{
+	font-size:14px;
+	color:#525252;
+	font-family:"楷体";
+	letter-spacing:2px;
+	line-height:26px;
+	word-break:break-all;
+	}
+	
+	
+	
+/*最新文章部分*/
+.text_box .zxwz{
+	width:787px;
+	height:475px;
+	float:left;
+	margin-top:5px;
+	box-shadow:0px 0px 15px 15px #e4e4e4;
+	border-radius:5px;
+	padding-left:27px;
+	padding-right:18px;
+	box-sizing:border-box;
+	overflow:hidden;
+	}
+.text_box .zxwz h3{
+	font-family:"黑体";
+	font-size:18px;
+	color:#154b70;
+	margin-top:30px;
+	margin-bottom:6px;
+	margin-left:20px;
+	}
+.text_box .zxwz .esay_box{
+	width:742px;
+	margin-top:10px;
+	}
+.text_box .zxwz .esay_box>img{
+	margin:17px 11px 13px 8px;
+	float:left;
+	}
+.text_box .zxwz .esay_box h3{
+	margin-left:373px;
+	font-family:"黑体";
+	font-size:18px;
+	color:#63686c;
+	margin-top:0px;
+	margin-bottom:13px;
+	font-weight:bold;
+	}
+.text_box .zxwz .esay_box p{
+	display:block;
+	height:300px;
+	font-family:"黑体";
+	font-size:14px;
+	line-height:23px;
+	letter-spacing:1px;
+	word-spacing:3px;
+	color:#919497;
+	}
+.text_box .zxwz .esay_box .date{
+	font-family:"黑体";
+	font-size:14px;
+	color:#919497;
+	float:right;
+	margin-right:97px;
+	}
+
+
+
+/*栏目介绍框下面的图片展示*/
+.pic_show{
+	width:340px;
+	height:1043px;
+	float:left;
+	clear:both;
+	padding-top:112px;
+	padding-left:86px;
+	box-sizing:border-box;
+	}
+.pic_show>img{
+	margin-bottom:44px;
+	margin-right:154px;
+	}
+
+
+
+/*精彩文章回顾*/
+.jcwz{
+	width:787px;
+	height:476px;
+	float:left;
+	background:url(../images/jingcai.png) no-repeat scroll;
+	margin-top:80px;
+	margin-left:36px;
+	box-shadow:0px 0px 15px 15px #e4e4e4;
+	border-radius:5px;
+	padding:33px 27px 205px 27px;
+	box-sizing:border-box;
+	}
+.jcwz h3{
+	font-family:"黑体";
+	font-size:18px;
+	color:#154b70;
+	word-spacing:4em;
+	margin-bottom:6px;
+	margin-left:18px;
+	}
+/*文章链接*/
+.jcwz .esay_list{
+	width:733px;
+	height:210px;
+	padding:32px 48px 0px 34px;
+	box-sizing:border-box;
+	}
+.jcwz .esay_list ul{
+	float:left;
+	margin-right:100px;
+	}
+.jcwz .esay_list .last{
+	margin-right:0px;
+	}
+.jcwz .esay_list ul li a{
+	text-decoration:none;
+	font-size:14px;
+	font-family:"黑体";
+	color:#186091;
+	line-height:31px;
+	opacity:0.7;
+	}
+.jcwz .esay_list ul li a:hover{
+	text-decoration:underline;
+	opacity:1;
+	}
+
+
+
+/*底部版权*/
+.bottom{
+	width:1440px;
+	height:147px;
+	background:url(../images/bottom.png) no-repeat scroll;
+	}
+.bottom p{
+	text-align:center;
+	transform:translateY(66px);
+	font-family:"黑体";
+	font-size:14px;
+	color:#8fc6d0;
+	}

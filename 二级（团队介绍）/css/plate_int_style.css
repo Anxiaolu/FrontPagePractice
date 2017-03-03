@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:0;
+	margin:0;
+	}
+*{
+	padding:0;
+	margin:0;
+	}
+.continer{
+	position:relative;
+	width:1440px;
+	height:1000px;
+	background:url(../images/bodybg.png) no-repeat scroll;
+	}
+.top{
+	width:490px;
+	height:98px;
+	padding-left:950px;
+	}
+.continer .top .dhl{
+	width:310px;
+	height:60px;
+	float:right;
+	margin-top:38px;
+	background:#51afd9;
+	padding-left:180px;
+	}
+.continer .top .dhl a{
+	text-decoration:none;
+	margin-right:34px;
+	margin-top:22px;
+	float:left;
+	font-family:"黑体";
+	font-size:16px;
+	color:#154b70;
+	}
+.continer .top .dhl a:hover{
+	color:#fff;
+	}
+.continer .top .dhl .tdjs{
+	color:#fff;
+	}
+.continer .top .dhl .tdjs:hover{
+	color:#154b70;
+	}
+.text_box{
+	width:1440opx;
+	padding-left:80px;
+	padding-right:80px;
+	}
+.text p{
+	font-size:16px;
+	font-family:"黑体";
+	line-height:38px;
+	letter-spacing:2px;
+	}
+.text_left{
+	margin-top:508px;
+	text-align:left;
+	float:left;
+	}
+.text_right{
+	margin-top:562px;
+	text-align:right;
+	float:right;
+	transform:scaleX(120px);
+	}

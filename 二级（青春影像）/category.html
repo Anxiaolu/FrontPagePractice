@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>青春影像</title>
+<link href="images/tb.ico" rel="shortcut icon">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<script type="text/javascript">
+//弹出隐藏层
+function ShowDiv(show_div,bg_div){
+document.getElementById(show_div).style.display='block';
+document.getElementById(bg_div).style.display='block' ;
+var bgdiv = document.getElementById(bg_div);
+bgdiv.style.width = document.body.scrollWidth;
+// bgdiv.style.height = $(document).height();
+$("#"+bg_div).height($(document).height());
+};
+//关闭弹出层
+function CloseDiv(show_div,bg_div)
+{
+document.getElementById(show_div).style.display='none';
+document.getElementById(bg_div).style.display='none';
+};
+</script>
+
+<body>
+	<div class="top">
+    	<div class="link_box">
+        	<a class="first" href="#">首页</a>
+            <a class="link" href="#">青春影像</a>
+        </div>
+        <!--顶部左侧蝴蝶-->
+        <div class="but">
+        	<img src="images/butterfly.png">
+        </div>
+        <!--顶部中间的圆圈-->
+        <div class="circle">
+        	<h2>青春影像</h2>
+            <p>video</p>
+            <span>活动视频</span>
+        </div>
+    </div>
+    <!--分割线-->
+    <img class="line" src="images/line.png" >
+    <div id="video_box">
+    	<div class="video_left">
+			<div class="video first">
+                 <div class="video_img">
+                    <a onClick="ShowDiv('MyDiv','fade')" id="btn" class="btn" href="#" ></a>
+                 </div>
+                <!--弹出层时背景层DIV-->
+                <div id="fade" class="black_overlay">
+                </div>
+                <div id="MyDiv" class="white_content">
+                  <span style=" background-image:url(images/close.png); float:right; width:32px; height:32px; position:absolute;top:0px; right:0px;" onclick="CloseDiv('MyDiv','fade')"></span>
+                	<video src="video/youling.mp4" controls preload="auto" id="v1"></video>
+                </div>
+                <p>青春之声活动视频</p>
+            </div>
+			<div class="video second">
+                 <div class="video_img">
+                    <a onClick="ShowDiv('MyDiv','fade')" id="btn" class="btn" href="#" ></a>
+                 </div>
+                <!--弹出层时背景层DIV-->
+                <div id="fade" class="black_overlay">
+                </div>
+                <div id="MyDiv" class="white_content">
+                  <span style=" background-image:url(images/close.png); float:right; width:32px; height:32px; position:absolute;top:0px; right:0px;" onclick="CloseDiv('MyDiv','fade')"></span>     
+                	<video src="video/youling.mp4" controls preload="auto" id="v1"></video>
+                </div>
+                <p>青春之声活动视频</p>
+			</div> 
+        </div> <!--video_left---> 
+        <img src="images/center.png" style="float:left;"> <!---中间的图片-->
+    	<div class="video_right">
+			<div class="video first">
+                 <div class="video_img">
+                    <a onClick="ShowDiv('MyDiv','fade')" id="btn" class="btn" href="#" ></a>
+                 </div>
+                <!--弹出层时背景层DIV-->
+                <div id="fade" class="black_overlay">
+                </div>
+                <div id="MyDiv" class="white_content">
+                  <span style=" background-image:url(images/close.png); float:right; width:32px; height:32px; position:absolute;top:0px; right:0px;" onclick="CloseDiv('MyDiv','fade')"></span>     
+                 <video src="video/youling.mp4" controls preload="auto" id="v1"></video>
+                </div>
+                <p>青春之声活动视频</p>
+            </div>
+			<div class="video second">
+                 <div class="video_img">
+                    <a onClick="ShowDiv('MyDiv','fade')" id="btn" class="btn" href="#" ></a>
+                 </div>
+                <!--弹出层时背景层DIV-->
+                <div id="fade" class="black_overlay">
+                </div>
+                <div id="MyDiv" class="white_content">
+                  <span style=" background-image:url(images/close.png); float:right; width:32px; height:32px; position:absolute;top:0px; right:0px;" onclick="CloseDiv('MyDiv','fade')"></span>                 
+                	<video src="video/youling.mp4" controls preload="auto" id="v1"></video>
+                </div>
+                <p>青春之声活动视频</p>
+			</div> 
+        </div> <!--video_left--->         
+    </div><!--video_box-->
+    <img src="images/foot_q.png" style="margin-top:68px;">
+</body>
+</html>

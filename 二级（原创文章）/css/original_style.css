@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0;
+	margin:0;
+	}
+*{
+	padding:0;
+	margin:0;
+	}
+.continer{
+	width:1440px;
+	height:2000px;
+	background:url(../images/body_bg.png) no-repeat scroll;
+	}
+.top{
+	width:490px;
+	height:98px;
+	padding-left:950px;
+	overflow:hidden;
+	}
+.top .link_box{
+	width:374px;
+	height:35px;
+	padding-left:116px;
+	margin-top:39px;
+	padding-top:24px;
+	background:#51afd9;
+	}
+.top .link_box a{
+	margin-top:24px;
+	margin-right:36px;
+	text-decoration:none;
+	font-size:16px;
+	font-family:"黑体";
+	color:#154b70;
+	}
+.top .link_box a:hover{
+	color:#fff;
+	}
+.top .link_box .ycsw{
+	color:#fff;
+	}
+.top .link_box .ycsw:hover{
+	color:#154b70;
+	}
+.title{
+	width:1440px;
+	height:77px;
+	margin-top:65px;
+	text-align:center;
+	}
+.title h2{
+	font-family:"黑体";
+	font-size:28px;
+	color:#fff;
+	}
+.title p{
+	font-family:"黑体";
+	font-size:24px;
+	color:#abf2ff;
+	}
+.essay_box{
+	width:1212px;
+	margin:0 112px 0;
+	overflow:hidden;
+	padding-top:120px;
+	}
+.essay_box .essay{
+	width:362px;
+	height:562px;
+	margin-right:60px;
+	margin-bottom:120px;
+	background:url(../images/essay_bg.png) no-repeat scroll;
+	overflow:hidden;
+	float:left;
+	}
+.essay_box .third{
+	margin-right:0px;
+	}
+.essay_box .essay .author{
+	width:362px;
+	hiegh:168px;
+	text-align:center;
+	margin-bottom:49px;
+	}
+.essay_box .essay .author p{
+	font-size:24px;
+	font-family:"黑体";
+	color:#fff;
+	margin-top:64px;
+	line-height:37px;
+	letter-spacing:3px;
+	}
+.essay_box .essay .author span{
+	font-size:16px;
+	font-family:"黑体";
+	color:#fff;
+	}
+.essay_box .essay .text{
+	width:310px;
+	padding-left:26px;
+	padding-right:26px;
+	overflow:hidden;
+	}
+.essay_box .essay .text .date{
+	margin-top:25px;
+	text-align:center;
+	font-size:16px;
+	font-family:"黑体";
+	color:#698c9c;
+	margin-bottom:20px;
+	}
+.essay_box .essay .text p{
+	display:block;
+	margin-top:25px;
+	letter-spacing:1px;
+	line-height:40px;
+	color:#5c8495;
+	cont-size:16px;
+	font-family:"黑体";
+	}
+.essay_box .essay .text a{
+	margin:45px auto 0px;
+	border:1px solid #9bb3bd;
+	text-decoration:none;
+	display:block;
+	width:106px;
+	height:24px;
+	background:#5c8495;
+	text-align:center;
+	line-height:18px;
+	font-size:16px;
+	font-family:"黑体";
+	color:#fff;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	transition-delay:0.3s;
+	-o-transition-delay:0.3s;
+	-ms-transition-delay:0.3s;
+	-moz-transition-delay:0.3s;
+	-webkit-transition-delay:0.3s;
+	transition:all ease-out 0.3s;
+	-o-transition:all ease-out 0.3s;
+	-ms-transition:all ease-out 0.3s;
+	-moz-transition:all ease-out 0.3s;
+	-webkit-transition:all ease-out 0.3s;
+	}
+.essay_box .essay .text a:hover{
+	transform:scale(1.2,1.2)
+	}
+.bottom{
+	width:1440px;
+	height:190px;
+	background:url(../images/banquan_bg.png) no-repeat scroll;
+	margin-top:86px;
+	overflow:hidden;
+	}
+.bottom p{
+	text-align:center;
+	font-family:"黑体";
+	font-size:14px;
+	color:#fff;
+	margin-top:159px;
+	}
+

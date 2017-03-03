@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>内容页</title>
+<link rel="shortcut icon" href="images/tb.ico">
+<link rel="stylesheet" type="text/css" href="css/show_hhy_style.css">
+<script>
+	var love=document.getElementById("love");
+	
+	love.onclick=function(){
+		if(love.className="love1"){
+			love.className="love2";
+			}
+		else{
+			love.className="love1";
+			}
+		};
+</script>
+</head>
+
+<body>
+<div class="container">
+	<div class="top">
+    	<div class="link_box">
+        	<a class="sy" href="#">首页</a>
+        </div>
+    </div>
+    <!--文章内容展示区外框-->
+    <div class="text_box">
+    	<div class="title">
+        	<h1>[下班后001]下班后两小时，决定你会成为怎样的人</h1>
+            <!--标题下面的字数、阅读、评论、喜欢等-->
+            <div class="title_love">
+            	<span>字数：</span>
+                <span>阅读：</span>
+                <span>评论：</span>
+                <span>喜欢：</span>
+                <span class="date">2016.2.19 18:38</span>
+            </div>
+        </div>
+        <div class="text">
+        	<img src="images/text_img.png">
+            <!--文章内容包裹层-->
+            <div class="text_in">
+        		<p>我叫特立独行的猫，2008年毕业开始上班，至今七年。七年前我看到过一句话“下班后两小时，决定你将会成为一个怎样的人。”因为各种原因，我决定试试看。</p>
+            	<p>这七年来，上班时是某国际公关公司的在职员工，下班后我是一个坚持写作的人，期间写了四本书，《当你的才华还撑不起你的梦想时》《不要让未来的你，讨厌现在的自己》等等，同时结婚生子倒也什么都没耽误~ 虽然这七年坚持非常辛苦，但收获也会非常大，甚至下班后的成就比上班的成就大的多，在一定意义上，也改变了
+我的人生路。（老板对不起（ㄒoㄒ)）</p>
+				<p>很多人问我，作为现如今的加班狗，下班就瘫倒在家里了，如何利用下班或者业余的时间来发展自己的爱好？如何在有孩子之后还能捡起自己想要做的事情？如何告别手机党，让自己看看书长点心？其实有很多问题我也有，我也在努力，那么不妨分享一下我的小小心得，希望能帮助有同样问题的你。如果你有好方法，也欢迎你来告诉我，共同进步。</p>
+            </div>
+            <!--文章下方喜欢按钮-->
+            <div id="love" class="love1">
+            	<img src="images/heart.png">
+                <span>喜欢 | 312</span>
+            </div>
+            <div class="fx_box">
+            	<a href="#"><img src="images/fenxiang_weibo.png"> 分享到微博</a>
+                <a href="#"><img src="images/fenxiang_weixin.png"> 分享到微信</a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+    	<p>&copy; Copyright 2015. LGQN Our Stories.All rights reserved</p>
+    </div>
+</div>
+</body>
+</html>

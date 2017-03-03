@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网站后花园</title>
+<link href="images/tb.ico" rel="shortcut icon">
+<link href="css/css1.css" rel="stylesheet"  type="text/css">
+<link href="css/fsbanner.css" rel="stylesheet"  type="text/css">
+<link href="css/CssShake.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/fsbanner.js"  type="text/javascript"></script>
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="js/limit.js"></script>
+<script src="js/zA7n.js"></script>
+<script src="js/uisearch.js"></script>
+<script>
+			new UISearch( document.getElementById( 'sb-search' ) );
+</script>
+<script>
+		$(window).load(function () {
+			$('#zA7n').zA7n({});
+		});
+</script>
+<script type="text/javascript">
+$(function(){	
+	$(window).scroll(function() {		
+		if($(window).scrollTop() >= 100){
+			$('.actGotop').fadeIn(300); 
+		}else{    
+			$('.actGotop').fadeOut(300);    
+		}  
+	});
+	$('.actGotop').click(function(){
+	$('html,body').animate({scrollTop: '0px'}, 800);});	
+});
+</script><!--回到顶部-->
+<script>
+window.onload = function(){
+	var music = document.getElementById("music");
+	var audio = document.getElementsByTagName("audio")[0];
+
+	music .onclick = function(){
+		if(audio.paused){
+		   audio.play();
+		   music.style.backgroundImage="url(images/play.png)";
+		   
+			}
+		else{
+			audio.pause();
+			music.style.backgroundImage="url(images/pause.png)";
+		};
+	};
+};
+</script>
+</head>
+
+<body>
+    <audio autoplay="true" loop >
+    	<source src="music/kn.mp3" type="audio/mpeg"> 	
+    </audio>
+    <div class="music_btn_play" id="music"></div>
+ 		<!-- 背景音乐部分-->
+    <div class="actGotop"><a href="javascript:;" title="返回顶部"></a></div><!--回到顶部-->
+    <div  id="dh">
+         <img id="tb" src="images/tb.jpg"> <!-- 我们的图标-->
+         <ul id="ul_dh"> <!--导航部分-->
+             <li><a href="#">首页</a></li>
+             <li><a href="#">简介</a></li>
+             <li><a href="#">成果</a></li>
+             <li><a href="#">群力</a></li> 
+             <li><a href="#">活动</a></li>
+             <li><a href="#">寄语</a></li>
+             <li><a href="#">相关链接</a></li>   
+        </ul>
+     </div>
+        <div class="search">
+        	<div class="hidden">
+        		<form>
+            		<input class="search_info" id="search" type="search" name="search" placeholder="搜索文章、用户、关键字" />
+            	</form>
+            </div>
+            <a class="search_btn" href="javascript:checkSubmit()"></a>
+       </div>
+<img src="images/banner.jpg"> <!--banner-->
+<div id="wzjj">
+		<div class="continer">
+        	<div class="public">
+                <div class="img shak shake-slow">
+                	<a href="#">
+                    	<img src="images/wzjj.jpg">
+                    </a>
+                </div>
+                <a name="1" class="common" href="#">网站简介</a>
+                <p>the brief introduction</p>
+            </div>
+            <div class="public">
+                <div class="img shake shake-slow">
+                	<a href="#">
+                		<img src="images/gzhj.jpg">
+                    </a>
+                </div>
+                <a class="common" href="#">工作环境</a>
+                <p>working environment</p>
+            </div>
+            <div class="public">
+                <div class="img shak shake-slow">
+                	<a href="#">
+                		<img src="images/ggbm.jpg">
+                    </a>
+                </div>
+                <a class="common" href="#">各个部门</a>
+                <p>various department</p>
+            </div>
+            <div class="public">
+                <div class="img shak shake-slow">
+                	<a href="#">
+                		<img src="images/tdjs.jpg">
+                    </a>
+                </div>
+                <a class="common" href="#">团队介绍</a>
+                <p>group's introduction</p>
+            </div>
+    	</div>
+   <p class="wzjj_p">我们的这些年那些年</p>
+   <img src="images/the-days.png" id="the-days">
+   
+</div>
+<!-- 分割线-->
+      <div style="position:relative; margin-bottom:33px;">
+         <hr style="border:2px solid #E7F2F7;">
+         <span  id="fgx"></span>
+      </div>
+<!--分割线-->
+<p style="text-align:center; font-size:18px; color:#77aacd; margin-bottom:40px;"> our original</br>我们的原创</p>
+     <div style="height:359px;"> <!--一个框框圈起来四个浮动版块-->
+       <div id="ycsw">
+             <img  class="yc" src="images/ycsw.jpg">
+             <a href="#">原创散文、诗歌</br>essay、poem ect</a>
+       </div>
+       <div id="wxrc">
+             <img  class="yc" src="images/wxrc.jpg">
+             <a href="#">微信日常校园照片</br>photo</a>
+       </div>
+       <div id="ycsp">
+            <img class="yc" src="images/ycsp.jpg">
+            <a href="#">原创视频</br>video</a>
+       </div>
+       <div id="mbrc">
+            <img  class="yc" src="images/mbrc.jpg">
+            <a href="#">美编日常设计、书签、海报</br>design</a> 
+       </div>
+    </div>
+<!-- 分割线-->
+<div style="position:relative; margin-bottom:33px;">
+   <hr style="border:2px solid #E7F2F7;">
+   <span  id="fgx"></span>
+</div>
+<!--分割线-->
+  <p style="text-align:center; font-size:18px; color:#77aacd; margin-bottom:52px;"> work and pull together</br>群策群力</p>
+  <div style="height:394px;"><!--一个框框-->
+       <div id="zlgx">
+             <a href="#" >资料共享</a>
+             <p style="text-align:center;"> data sharing</p>
+       </div>
+       <div id="jqrw">
+             <a href="#" >近期任务工作计划</a>
+             <p style="text-align:center;"> work program</p>
+       </div>
+       <div id="lyb">
+             <a href="#" >留言板</a>
+             <p style="text-align:center;"> message board</p>
+       </div>
+  </div>
+<!-- 分割线-->
+    <div style="position:relative; margin-bottom:33px;">
+         <hr style="border:2px solid #E7F2F7;">
+         <span  id="fgx"></span>
+    </div>
+<!--分割线-->
+ <p style="text-align:center; font-size:18px;;  color:#77aacd; margin-bottom:47px;"> our achievement is unbelieveable</br>成果展示</p>
+  <div style="height:270px; width:368px; float:left; margin-left:141px;"> <!--一个框框-->
+     <div id="jb">
+     <a href="#">奖杯 证书 荣誉称号</br>trophy ect</a>
+  </div>
+  <div id="sb">
+     <a href="#">稷下大讲堂书</br>lecture</a>
+  </div>
+  <div id="qmb">
+    <a href="#">签名簿</br>the autograph book</a>
+  </div>
+</div>
+<div style="height:360px;"><!--手风琴特效的框框-->
+  <div class="accordion" id="zA7n">
+				<ul class="accordion__ul">
+					<li class="accordion__li"><img class="accordion__img" src="images/1.jpg" alt="" /></li>
+					<li class="accordion__li"><img class="accordion__img" src="images/2.jpg" alt="" /></li>
+					<li class="accordion__li"><img class="accordion__img" src="images/13.jpg" alt="" /></li>
+					<li class="accordion__li"><img class="accordion__img" src="images/14.jpg" alt="" /></li>
+				</ul>
+  </div>
+</div>
+<!-- 分割线-->
+<div style="position:relative; margin-bottom:33px;">
+   <hr style="border:2px solid #E7F2F7;">
+   <span  id="fgx"></span>
+</div>
+<!--分割线-->
+<p style="text-align:center; font-size:18px;  color:#77aacd; margin-bottom:47px;"> share</br>晒</p>
+    <div class="share">
+		<a name="4" class="circle circle1" href="#">
+            <span>墨染年华</span>
+            <span class="eng">text feelings</span>
+            <p>活动文字感想</p>
+            <div class="border"></div>
+        </a>
+		<a class="circle" href="#">
+            <span>记忆定格</span>
+            <span class="eng">photo of events</span>
+            <p>活动照片</p>
+            <div class="border"></div>
+        </a>
+ 		<a class="circle" href="#">
+            <span>青春影像</span>
+            <span class="eng">video</span>
+            <p>活动视频</p>
+            <div class="border"></div>
+        </a>
+    </div>
+<!-- 分割线-->
+ <div style="position:relative; margin-bottom:33px;">
+      <hr style="border:2px solid #E7F2F7;">
+      <span  id="fgx"></span>
+ </div>
+<!--分割线-->
+ <p style="text-align:center; font-size:18px;  color:#77aacd; margin-bottom:47px;"> love speak out</br>爱要大声说出来</p>
+ <div id="jy">
+     <div class="jy" > 
+         <img src="images/lbh.png">
+         <a href="#">历届学长学姐寄语  <span>messages from senior</span></a>
+     </div>
+     <div  class="jy">
+          <img src="images/lbh.png">
+          <a href="#">在职人员感想 <span>members' feelings</span></a>
+     </div>
+     <div class="jy">
+          <img src="images/lbh.png">
+          <a href="#">追踪访谈——考研学长学姐经验分享 <span>follow-up interview</span></a>
+      </div>
+   </div>
+  <img  src="images/people.png" style="margin-left:78px; margin-right:71px;">
+  <img  src="images/longmao.png">
+<!-- 分割线-->
+  <div style="position:relative; margin-bottom:33px; margin-top:85px;">
+      <hr style="border:2px solid #E7F2F7;">
+      <span  id="fgx"></span>
+  </div>
+<!--分割线-->
+  <p style="text-align:center; font-size:18px;  color:#77aacd; margin-bottom:47px;"> related links</br>相关链接</p>
+      <div class="xglj">
+    	  <div class="wzht">
+        	  <div class="btf_box">
+            	  <img src="images/btf_logo1.png">
+              </div>
+              <a name="6" href="http:www.lgqn.cn/admin.php">网站后台</a>
+          </div>
+          <div class="mbwz">
+          	  <div class="btf_box box2">
+                 	<img src="images/btf_logo2.png">
+              </div>
+              <p>美编常用网站</p>
+              <a href="#">站酷（ZCOOL）-设计师互动平台</a>
+              <a href="#">数字尾巴-分享美好数字生活</a>
+              <a class="link" href="#">设计癖|发现好设计</a>
+              <a href="#">花瓣网_陪你做生活的设计师</a>
+              <a href="#">堆糖，分享收集生活中的美好</a>
+              <a class="link" href="#">more&raquo;</a>
+          </div>
+      </div>
+<div class="contenter end">
+	<div class="end-lgqn"></div>
+    <p class="end-p contenter">&copy;Copyright 2015. LGQN Our Stories.All rights reserved</p>
+</div><!--版权部分-->
+</body>
+</html>

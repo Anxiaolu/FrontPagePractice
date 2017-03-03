@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	font-family:"黑体";
+	}
+img{
+	margin-bottom:-5px;
+	}
+body{
+	padding:0;
+	margin:0 auto;
+	}
+.container{
+	width:1440px;
+	height:2000px;
+	margin:0 auto;
+	background:#ededed;
+	}
+.top{
+	width:1440px;
+	height:339px;
+	background:url(../images/banner.png) no-repeat scroll;
+	}
+
+
+/*顶部右侧链接*/
+.top .link_box{
+	width:335px;
+	height:59px;
+	margin-top:45px;
+	float:right;
+	background:#51afd9;
+	padding-top:23px;
+	padding-left:150px;
+	box-sizing:border-box;
+	}
+.top .link_box a{
+	text-decoration:none;
+	font-size:16px;
+	color:#fff;
+	}
+.top .link_box a:hover{
+	color:#154b70;
+	}
+.top .link_box .sy{
+	color:#154b70;
+	margin-right:37px;
+	}
+.top .link_box .sy:hover{
+	color:#fff;
+	}
+
+/*留言框外层框架*/
+.ly_box{
+	width:1440px;
+	height:1550px;
+	padding-top:127px;
+	padding-left:128px;
+	box-sizing:border-box;
+	}
+.ly_box .ly{
+	width:312px;
+	height:498px;
+	box-shadow:0px 0px 2px 2px #c5c5c5;
+	margin-right:119px;
+	margin-bottom:167px;
+	float:left;
+	}
+/*留言框下面的*/
+.ly_box .ly .text_box{
+	width:312px;
+	height:310px;
+	background:#fff;
+	overflow:hidden;
+	padding-left:13px;
+	padding-right:20px;
+	box-sizing:border-box;
+	letter-spacing:2px;
+	}
+.ly_box .ly .text_box p{
+	display:block;
+	height:216px;
+	margin-top:25px;
+	font-size:16px;
+	color:#5d5d5d;
+	line-height:24px;
+	}
+/*留言框下面的作者、日期等包裹层*/
+.ly_box .ly .text_box .box_bottom{
+	margin-top:20px;
+	}
+.ly .text_box .box_bottom>img{
+	margin-left:15px;
+	float:left;
+	}
+/*点击次数*/
+.ly .text_box .box_bottom>span{
+	margin-left:10px;
+	font-size:16px;
+	color:#6a6868;
+	}
+
+.ly .text_box .box_bottom .author{
+	float:right;
+	transform:translate(0px,-30px);
+	}
+.ly .text_box .box_bottom .date{
+	float:right;
+	transform:translate(54px,-10px);
+	}
+
+
+
+/*底部版权*/
+.bottom{
+	width:1440px;
+	height:109px;
+	background:url(../images/bottom.png) no-repeat scroll;
+	overflow:hidden;
+	}
+.bottom p{
+	text-align:center;
+	font-size:14px;
+	color:#8bc3cd;
+	margin-top:68px;
+	}

@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	font-family:"黑体";
+	}
+a{
+	text-decoration:none;
+	}
+.container{
+	width:1440px;
+	height:2000px;
+	margin:0 auto;
+	}
+.top{
+	width:1440px;
+	height:332px;
+	background:url(../images/top_bg.png) no-repeat scroll;
+	}
+
+/*顶部右侧链接*/
+.top .link_box{
+	width:445px;
+	height:60px;
+	margin-top:40px;
+	float:right;
+	padding-left:192px;
+	padding-top:22px;
+	box-sizing:border-box;
+	background:#51afd9;
+	}
+.top .link_box a{
+	text-decoration:none;
+	font-size:16px;
+	font-family:"黑体";
+	color:#fff;
+	}
+.top .link_box .sy{
+	color:#154b70;
+	margin-right:46px;
+	}
+.top .link_box .sy:hover{
+	color:#fff;
+	}
+.top .link_box a:hover{
+	color:#154b70;
+	}
+
+
+/*下方的外框*/
+.center{
+	width:1440px;
+	height:1455px;
+	background:url(../images/center_bg.png) no-repeat scroll;
+	padding-left:215px;
+	padding-right:215px;
+	box-sizing:border-box;
+	overflow:hidden;
+	}
+/*主要任务*/
+.center .zyrw{
+	width:510px;
+	height:588px;
+	padding:26px 26px 25px 25px;
+	box-sizing:border-box;
+	margin-top:260px;
+	background:#fff;
+	float:left;
+	margin-right:90px;
+	}
+.zyrw h3{
+	font-size:28px;
+	color:#2b5b70;
+	margin-top:25px;
+	margin-bottom:12px;
+	letter-spacing:3px;
+	}
+.zyrw .date{
+	display:block;
+	font-size:22px;
+	color:#8abace;
+	letter-spacing:2px;
+	margin-top:12px;
+	margin-bottom:35px;
+	}
+.zyrw p{
+	font-size:18px;
+	color:#8abace;
+	letter-spacing:1px;
+	line-height:35px;
+	}
+	
+	
+	
+/*右侧任务框*/
+.rw_box{
+	width:407px;
+	height:585px;
+	float:right;
+	margin-top:260px;
+	}
+.rw_box .rw{
+	width:407px;
+	height:80px;
+	margin-bottom:15px;
+	background:#fff;
+	border-radius:5px;
+	padding-top:20px;
+	padding-left:23px;
+	box-sizing:border-box;
+	}
+.rw_box .rw a{
+	font-size:22px;
+	color:#2b5b70;
+	margin-right:250px;
+	margin-bottom:5px;
+	}
+.rw_box .rw a:hover{
+	color:#9ae6f4;
+	}
+.rw_box .rw .date{
+	font-size:18px;
+	color:#80b2c7;
+	}
+.rw_box .more{
+	margin:0 auto;
+	display:block;
+	width:60px;
+	height:60px;
+	}
+.rw_box .more p{
+	font-size:22px;
+	transform:translateY(20px);
+	color:#87bbd2;
+	}
+.rw_box .more>img{
+	transition:all ease-in-out 0.3s;
+	-webkit-transition:all ease-in-out 0.3s;
+	}
+.rw_box .more:hover img{
+	transform:translateY(15px);
+	}
+
+
+
+
+/*下面的工作计划*/
+.gzjh_box{
+	width:1010px;
+	height:610px;
+	float:left;
+	padding-top:120px;
+	padding-left:30px;
+	box-sizing:border-box;
+	}
+.gzjh{
+	width:238px;
+	height:171px;
+	margin-right:85px;
+	margin-bottom:70px;
+	float:left;
+	}
+.gzjh h5{
+	font-size:18px;
+	color:#2b5b70;
+	letter-spacing:2px;
+	margin-bottom:8px;
+	}
+.gzjh .date{
+	font-size:14px;
+	color:#8abace;
+	}
+.gzjh p{
+	margin-top:10px;
+	font-size:14px;
+	color:#8abace;
+	line-height:20px;
+	letter-spacing:1px;
+	}
+
+
+
+.fy{
+	width:1440px;
+	height:97px;
+	text-align:center;
+	padding-top:25px;
+	box-sizing:border-box;
+	}
+.fy span{
+	font-size: 20px;
+    color: #86b6c0;
+    letter-spacing: 3px;
+}
+.fy a{
+	font-size:20px;
+	color:#7897ad;
+	text-decoration:none;
+	}
+.fy a:hover{
+	color:#315f80;
+	}
+
+.bottom{
+	width:1440px;
+	height:109px;
+	background:url(../images/bottom.png) no-repeat scroll;
+	overflow:hidden;
+	}
+.bottom p{
+	font-size:14px;
+	color:#a0d1d9;
+	margin-top:68px;
+	text-align:center;
+	}

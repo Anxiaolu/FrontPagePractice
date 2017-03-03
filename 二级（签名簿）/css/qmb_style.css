@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	font-family:"黑体";
+	}
+a{
+	text-decoration:none;
+	}
+body{
+	padding:0;
+	margin:0;
+	}
+.container{
+	width:1440px;
+	height:2000px;
+	margin:0 auto;
+	background:url(../images/body_bg.png) no-repeat scroll;
+	}
+.top{
+	width:1440px;
+	height:279px;
+	}
+/*顶部右侧链接*/
+.top .link_box{
+	width:466px;
+	height:60px;
+	float:right;
+	background:#51afd9;
+	margin-top:56px;
+	padding-left:248px;
+	padding-top:21px;
+	box-sizing:border-box;
+	}
+.top .link_box a{
+	text-decoration:none;
+	font-size:16px;
+	color:#fff;
+	}
+.top .link_box a:hover{
+	color:#154b70;
+	}
+.top .link_box .sy{
+	color:#154b70;
+	margin-right:37px;
+	}
+.top .link_box .sy:hover{
+	color:#fff;
+	}
+
+/*中间标题*/
+.top .title_box{
+	width:367px;
+	height:83px;
+	background:url(../images/title_bg.png) no-repeat scroll;
+	margin:0 auto;
+	transform:translateY(175px);
+	box-shadow:0px 0px 3px 3px #b9cddb;
+	}
+.top .title_box .title{
+	width:323px;
+	height:83px;
+	float:right;
+	text-align:center;
+	margin-top:21px;
+	}
+.top .title_box .title h3{
+	font-size:18px;
+	color:#426785;
+	letter-spacing:3px;
+	}
+.top .title_box .title p{
+	font-size:16px;
+	color:#77aacd;
+	}
+	
+	
+/*针对顶部的横线的*/
+.top>img{
+	display:block;
+	margin:0 auto;
+	margin-top:190px;
+	}
+
+
+/*六个签名簿文章内容大外包裹层*/
+
+.qm_box{
+	width:1440px;
+	height:1560px;
+	padding-top:85px;
+	padding-left:187px;
+	box-sizing:border-box;
+	}
+
+/*签名簿文章内容（小）包裹层*/
+
+.qm_box .qm{
+	width:438px;
+	height:412px;
+	background:url(../images/qmbox_bg.png) no-repeat scroll;
+	border:1px solid #d0d0d0;
+	border-radius:5px;
+	box-shadow:0px 0px 3px 3px #e0e0e0;
+	padding-left:40px;
+	padding-right:40px;
+	box-sizing:border-box;
+	margin-right:185px;
+	margin-bottom:95px;
+	float:left;
+	}
+.qm_box .qm h3{
+	font-size:30px;
+	font-family:"微软雅黑";
+	text-align:center;
+	color:#266696;
+	font-weight:lighter;
+	margin-top:46px;
+	letter-spacing:10px;
+	transform:translateX(5px);
+	}
+.qm_box .qm .rwsf{
+	font-size:14px;
+	color:#777879;
+	text-align:center;
+	display:block;
+	margin-top:8px;
+	margin-bottom:12px;
+	}
+.qm_box .qm p{
+	font-size:18.57px;
+	color:#6c6d6e;
+	line-height:34px;
+	letter-spacing:3px;
+	}
+.qm_box .qm .date{
+	font-size:14px;
+	color:#777879;
+	float:right;
+	}

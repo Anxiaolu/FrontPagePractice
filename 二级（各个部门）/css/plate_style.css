@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:0;
+	margin:0;
+}
+*{
+	margin:0;
+	padding:0;
+	}
+.continer{
+	width:1440px;
+	height:2000px;
+	background:url(../images/bodybg.png) no-repeat scroll;
+	}
+.dhl{
+	width:544px;
+	height:37px;
+	background-color:#51afd9;
+	float:right;
+	margin-top:34px;
+	padding-top:23px;
+	clear:both;
+	}
+.dhl a{
+	color:#154b70;
+	text-decoration:none;
+	font-family:"黑体";
+	font-size:16px;
+	margin-right:34px;
+	transform:scale(1.2,1.2);
+	-o-transform:scale(1.2,1.2);
+	-ms-transform:scale(1.2,1.2);
+	-moz-transform:scale(1.2,1.2);
+	-webkit-transform:scale(1.2,1.2);
+	transition-delay:all ease-in-out 0.5s;
+	-o-transition-delay:all ease-in-out 0.2s;
+	-ms-transition-delay:all ease-in-out 0.2s;
+	-moz-transition-delay:all ease-in-out 0.2s;
+	-webkit-transition-delay:all ease-in-out 0.2s;
+	}
+.dhl .last{
+	color:#fff;
+	}
+.dhl .last:hover{
+	color:#154b70;
+	}
+.dhl a:first-child{
+	margin-left:244px;
+	}
+.dhl a:hover{
+	color:#fff;
+	}
+.title{
+	width:1440px;
+	text-align:center;
+	font-family:"黑体";
+	font-size:28px;
+	color:#214c6b;
+	float:left;
+	clear:both;
+	margin-top:32px;
+	}
+.introduce{
+	width:950px;
+	padding:0px 253px 0px 250px;
+	overflow:hidden;
+	}
+.introduce .bmjs{
+	width:951px;
+	height:267px;
+	padding-top:80px;
+	float:left;
+	}
+.introduce:first-child{
+	margin-top:75px;
+	width:951px;
+	}
+.introduce .bmjs .text_box{
+	margin-bottom:109px;
+	width:700px;
+	float:left;
+	}
+.introduce .bmjs p{
+	font-size:20px;
+	font-family:"黑体";
+	color:#255474;
+	margin-bottom:35px;
+	letter-spacing:4px;
+	}
+.introduce .bmjs span{
+	font-size:16px;
+	font-family:"黑体";
+	color:#255474;
+	letter-spacing:3px;
+	line-height:38px;
+	}
+.introduce .bmjs img{
+	float:left;
+	margin-top:-25px;
+	}
+
+
+
